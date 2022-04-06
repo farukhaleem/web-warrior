@@ -29,7 +29,7 @@ export const query = graphql`
     file(relativePath: {eq: "banner.png"}) {
       childImageSharp {
         gatsbyImageData(
-          placeholder: BLURRED
+          placeholder: BLURRED, quality: 100
         )
       }
     }

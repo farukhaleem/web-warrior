@@ -19,7 +19,7 @@ const Projects = ({ data }) => {
             projects.map(project => {
 
               const image = getImage(project.frontmatter.thumb)
-              console.log(image)
+             
               return (
                 <Link to={'/projects/' + project.frontmatter.slug} key={project.id}>
                   <div>
@@ -61,7 +61,7 @@ query ProjectsPage {
         thumb {
           childImageSharp {
             gatsbyImageData(
-              placeholder: BLURRED
+              placeholder: BLURRED, quality: 100
             )
           }
         }
