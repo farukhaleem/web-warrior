@@ -16,6 +16,7 @@
   "dependencies": {
     "gatsby": "^4.11.2",
     "gatsby-plugin-image": "^2.9.0",
+    "gatsby-plugin-netlify": "^4.2.0",
     "gatsby-plugin-sharp": "^4.9.0",
     "gatsby-remark-images": "^6.9.0",
     "gatsby-source-filesystem": "^4.9.0",
